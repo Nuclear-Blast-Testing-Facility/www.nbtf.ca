@@ -4,7 +4,7 @@ export default function handler(req, res) {
 
   // Define your destination mapping
   const redirectMap = {
-    'chatgpt.com': 'https://example.com'
+    'chatgpt.com': '/chatgpt.html'
   };
 
   // Normalize to lowercase to avoid case-sensitivity issues
