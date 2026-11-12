@@ -3,3 +3,30 @@ Disallow: /
 
 User-agent: Googlebot
 Allow: /
+
+User-agent: Gemini-Deep-Research
+Allow: /
+
+User-agent: archive.org_bot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ChatGPT-User/2.0
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: AppleBot
+Allow: /
+
+User-agent: Yandex
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
