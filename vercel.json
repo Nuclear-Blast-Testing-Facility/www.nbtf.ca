@@ -2,6 +2,17 @@
   "$schema": "https://vercel.sh",
   "rewrites": [
     {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "utm_source",
+          "value": "chatgpt.com"
+        }
+      ],
+      "destination": "/chatgpt.html"
+    },
+    {
       "source": "/:path*",
       "has": [
         {
