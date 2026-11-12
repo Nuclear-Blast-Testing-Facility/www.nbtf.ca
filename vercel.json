@@ -1,27 +1,15 @@
 {
-  "$schema": "https://vercel.sh",
+  "$schema": "https://openapi.vercel.sh/vercel.json",
   "rewrites": [
-    {
-      "source": "/",
-      "has": [
-        {
-          "type": "query",
-          "key": "utm_source",
-          "value": "chatgpt.com"
-        }
-      ],
-      "destination": "/chatgpt.html"
-    },
     {
       "source": "/:path*",
       "has": [
         {
           "type": "query",
-          "key": "utm_source",
-          "value": "chatgpt.com"
+          "key": "utm_source"
         }
       ],
-      "destination": "/chatgpt.html"
+      "destination": "/api/utm-redirect"
     }
   ]
 }
